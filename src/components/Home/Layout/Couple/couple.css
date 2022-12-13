@@ -1,0 +1,28 @@
+.text {
+  /* font-size: 95px;
+  padding: 0 35px; */
+  float: left;
+  /* margin-top: 20px; */
+}
+
+.srf {
+  background-color: #0984e3;
+  color: #f5f6fa;
+  border-radius: 0 85px 85px 0;
+}
+
+
+.text {
+  animation-name: slide;
+  animation-duration: 4s;
+}
+
+@-webkit-keyframes slide {
+  0% { opacity: 0; margin-left: -250px; }
+  100% { opacity: 1; margin-left: 0; }
+}
+
+@keyframes slide {
+  0% { opacity: 0; margin-left: -250px; }
+  100% { opacity: 1; margin-left: 0; }
+}

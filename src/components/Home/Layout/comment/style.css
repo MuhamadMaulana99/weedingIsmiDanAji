@@ -1,0 +1,27 @@
+.comment{
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(3, 4, 4);
+}
+.load{
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 10px;
+}
+.comm{
+  font-weight: bold;
+  font-family: 'Font Awesome 5 Free';
+  font-size: small;
+}
+.header-comment{
+  display: flex;
+  justify-content: center;
+  
+}
+.container{
+  box-shadow: 0 10px 20px #0006;
+}
+.box{
+  width: 100%;
+}
