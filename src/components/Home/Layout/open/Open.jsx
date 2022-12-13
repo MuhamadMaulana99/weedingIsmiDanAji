@@ -10,7 +10,11 @@ export const Open = () => {
     <div>
       <div class="container">
         <div class="cards-container">
-        <h4>Ketuk Gambar Membuka</h4>
+          <div className="tengah">
+            <h3>Ismi & Aji</h3>
+            <hr />
+            <h4>Ketuk Gambar Membuka</h4>
+          </div>
           <div class="cards-Open">
             <div class="elms-animation">
               <span class="one"></span>
@@ -20,9 +24,9 @@ export const Open = () => {
             </div>
             <img src={ismiAji} alt="" />
             <div class="content">
-                <Link to="/home">
-                  <button value="sound">Buka Undangan</button>
-                </Link>
+              <Link to="/home">
+                <button value="sound">Buka Undangan</button>
+              </Link>
             </div>
           </div>
           {/* <motion.div
