@@ -13,7 +13,7 @@ export const Open = () => {
           <div className="tengah">
             <h3>Ismi & Aji</h3>
             <hr />
-            <h4>Ketuk Gambar Membuka</h4>
+            <h4>Ketuk Foto Kami Untuk Membuka</h4>
           </div>
           <div class="cards-Open">
             <div class="elms-animation">

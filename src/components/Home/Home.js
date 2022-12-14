@@ -6,7 +6,6 @@ import Story from './Layout/Story/Story';
 import Gallery from './Layout/Gallery/Gallery';
 import RSVP from './Layout/RSVP/RSVP';
 import BannerOne from './Layout/Banner-1/BannerOne';
-import Friend from './Layout/Friend/Friend';
 import Footer from './Layout/Footer/Footer';
 import { Atm } from './Layout/Atm/Atm';
 import Comment from './Layout/comment/Comment';
@@ -37,9 +36,9 @@ const Home = () => {
             <div id="gallery">
                 <Gallery />
             </div>
-            {/* <div>
+            <div>
                 <Atm />
-            </div> */}
+            </div>
             <div id="rsvp">
                 <RSVP />
             </div>
