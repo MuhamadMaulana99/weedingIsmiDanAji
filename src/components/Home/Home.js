@@ -11,11 +11,15 @@ import { Atm } from './Layout/Atm/Atm';
 import Comment from './Layout/comment/Comment';
 import { Maps } from './Layout/maps/Maps';
 import { Surat } from './Layout/surat/Surat';
+import { Text } from './Layout/components/love/Text';
 
 
 const Home = () => {
     return (
         <div>
+            {/* <div>
+                <Text/>
+            </div> */}
             <Navbar />
             <div id="home">
                 <Header />

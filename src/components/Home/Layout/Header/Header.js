@@ -47,6 +47,7 @@ const Header = () => {
                     </>
                 ) : (
                     <>
+                    {/* <div><Text/></div> */}
                         <div className="header__content">
                             <div className='header__content1'>
                                 <div className='deco'>
